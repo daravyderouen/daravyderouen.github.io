@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on [Potluck Capstone](https://potluck-capstone-daravy.herokuapp.com/)
 
-- 🌱 I’m currently learning **Javascript & in the future Python, React, Java, and C++.**
+- 🌱 I’m currently learning **Javascript**
 
 - 👨‍💻 All of my projects are available at [https://github.com/daravyderouen/daravyderouen.github.io-.git](https://github.com/daravyderouen/daravyderouen.github.io-.git)
 
