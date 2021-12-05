@@ -3527,7 +3527,7 @@ input, select, textarea {
 
 	  
 /* The popup form - hidden by default */
-.form-popup {
+#myForm {
 	display: none;
 	position: fixed;
 	bottom: 0;
