@@ -3539,8 +3539,8 @@ input, select, textarea {
   
   /* Add styles to the form container */ 
   .form-container {
-	max-width: 600px;
-	max-height: 700px;
+	max-width: 400px;
+	max-height: 300px;
 	padding: 10px;
 	background-color: white;
   }
@@ -3563,7 +3563,7 @@ input, select, textarea {
   /* Set a style for the submit/login button */
   .form-container .btn {
 	background-color: #04AA6D;
-	color: white;
+	color: rgb(112, 109, 109);
 	padding: 16px 20px;
 	border: none;
 	cursor: pointer;
