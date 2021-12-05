@@ -3526,7 +3526,7 @@ input, select, textarea {
 	  }
 
 	  
-/* The popup form - hidden by default 
+/* The popup form - hidden by default */
 .form-popup {
 	display: none;
 	position: fixed;
@@ -3536,7 +3536,7 @@ input, select, textarea {
 	z-index: 9;
   }
   
-  /* Add styles to the form container 
+  /* Add styles to the form container */ 
   .form-container {
 	max-width: 300px;
 	padding: 10px;
