@@ -31,3 +31,11 @@
 
 })(jQuery);
 
+function openForm() {
+	alert("Openform clicked!")
+  document.getElementById("myForm").style.display = '';
+}// changed from "block" to ''
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
