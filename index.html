@@ -31,10 +31,10 @@
 						<div class="col-6 col-12-medium">
 							<header class="major">
 								<h2>From Zero to I Node.JS<br />
-								A little more about this newbie:</h2>
+								"A little more about this newbie:"</h2>
 							</header>
 							<p>I love this new adventure!</p>
-							<p>Born in a Thailand refugee camp but raised in Lafayette, Louisiana, I am a full Cajun gal at heart. I was a former flight attendant with a Mechanical Engineering background. I have two beautiful kids who I love and adore. I am currently attending a Bright Paths bootcamp sponsored by Perficient. This has given me a great opportunity to push my boundaries and delve into another world. Come with me and follow along as I take this journey!</p>
+							<p>Born in a Thailand refugee camp but raised in Lafayette, Louisiana, I am a full Cajun gal at heart. I am former flight attendant with a Mechanical Engineering background. I am happily married and have two beautiful kids who I love and adore. I am currently attending a Bright Paths bootcamp sponsored by Perficient. This has given me a great opportunity to push my boundaries and delve into another world. Follow along with me as I take this journey!</p>
 
 							<p style="text-align: center;">XOXO<br>
 							<span style="color:aqua;"><b>Daravy</b></span></p>
@@ -101,7 +101,7 @@
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="images/potluckCapstone.jpg" alt="Daravy Potluck Generator" /></span>
 							<h3>Potluck Generator Foundations Capstone</h3>
-							<p>This application generates a dish for you.</p>
+							<p>This application generates a dish for you to cook.</p>
 							<ul class="actions special">
 								<li><a href="https://potluck-capstone-daravy.herokuapp.com/" class="button">More</a></li>
 							</ul>
@@ -115,9 +115,9 @@
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/derouen_family.JPG" alt="DeRouen" /></span>
+							<span class="image fit"><img src="images/derouen_family.JPG" width="800px" height="400px" alt="DeRouen" /></span>
 							<h3>Photography</h3>
-							<p>Photographs are price less heirlooms that you can pass down to your kids. We often take them for granted.</p>
+							<p>As often as I can, I love to take photographs. Photographs are priceless heirlooms that you can pass down to your kids. We often take them for granted.</p>
 							<ul class="actions special">
 								<li><a href="daravy/photo.html" target="blank" class="button">More</a></li>
 							</ul>
@@ -134,7 +134,7 @@
 					</header>
 					<p>I would love to hear back from you!</p>
 					<ul class="actions special">
-						<li><a href="#" class="button wide primary">Sign Up</a></li>
+						<li><a href="#" class="myForm">Contact Me</a></li>
 						<li><a href="./blogs/beforeBootcamp.html" class="button wide">Learn More</a></li>
 					</ul>
 				</div>
@@ -378,11 +378,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<li><span class="button primary disabled">Disabled</span></li>
 							<li><span class="button disabled">Disabled</span></li>
 						</ul>
-					</section>
-
+					</section-->
+					<div class="form-popup" id="myForm">
 					<section>
 						<h4>Form</h4>
-						<form method="post" action="#">
+						<form method="post" action="/derouen.daravy@gmail.com">
 							<div class="row gtr-uniform gtr-50">
 								<div class="col-6 col-12-xsmall">
 									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
@@ -393,10 +393,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<div class="col-12">
 									<select name="demo-category" id="demo-category">
 										<option value="">- Category -</option>
-										<option value="1">Manufacturing</option>
-										<option value="1">Shipping</option>
-										<option value="1">Administration</option>
-										<option value="1">Human Resources</option>
+										<option value="1">Work</option>
+										<option value="1">Networking</option>
+										<option value="1">Personal</option>
+										<!--option value="1">Human Resources</option-->
 									</select>
 								</div>
 								<div class="col-4 col-12-small">
@@ -431,8 +431,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							</div>
 						</form>
 					</section>
+					</div>
 
-					<section>
+					<!--section>
 						<h4>Image</h4>
 						<h5>Fit</h5>
 						<div class="box alt">
@@ -455,7 +456,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					</section>
 
 				</div>
-			</section>
+			</section-->
 		-->
 
 		<!-- Footer -->
@@ -472,6 +473,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</section>
 
 		<!-- Scripts -->
+		<script>
+
+				function openForm() {
+  				document.getElementById("myForm").style.display = "block";
+				}
+
+				function closeForm() {
+  				document.getElementById("myForm").style.display = "none";
+				}
+
+		</script>
+
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
