@@ -3529,9 +3529,12 @@ input, select, textarea {
 /* The popup form - hidden by default */
 .form-popup {
 	display: none;
+	color: darkgrey;
 	position: fixed;
 	bottom: 0;
 	right: 15px;
+	width: 100%;
+	height: 100%;
 	border: 3px solid #f1f1f1;
 	z-index: 9;
   }
