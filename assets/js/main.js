@@ -33,7 +33,7 @@
 
 function openForm() {
 	//alert("Openform clicked!")
-  document.getElementById("myForm");
+  document.getElementById("myForm").style.display = 'none';
 }// took this line out .style.display = 'block'
 
 function closeForm() {
