@@ -33,8 +33,8 @@
 
 function openForm() {
 	//alert("Openform clicked!")
-  document.getElementById("myForm").style.display = 'block';
-}// changed from "block" to ''
+  document.getElementById("myForm");
+}// took this line out .style.display = 'block'
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
