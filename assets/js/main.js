@@ -31,11 +31,11 @@
 
 })(jQuery);
 
-// function openForm() {
-// 	//alert("Openform clicked!")
-//   document.getElementById("myForm");
-// }// took this line out .style.display = 'block'
+function openForm() {
+	//alert("Openform clicked!")
+  document.getElementById("myForm").style.display = 'block';
+}// took this line out 
 
-// function closeForm() {
-//   document.getElementById("myForm").style.display = "none";
-// }
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
