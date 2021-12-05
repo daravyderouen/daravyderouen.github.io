@@ -32,8 +32,8 @@
 })(jQuery);
 
 function openForm() {
-	alert("Openform clicked!")
-  document.getElementById("myForm").style.display = '';
+	//alert("Openform clicked!")
+  document.getElementById("myForm").style.display = 'block';
 }// changed from "block" to ''
 
 function closeForm() {
