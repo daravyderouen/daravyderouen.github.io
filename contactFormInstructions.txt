@@ -1,0 +1,8 @@
+>> Instructions for Responsive Contact Form<<
+1. Create Contact Form
+2. Go to https://formsubmit.co/ and follow instructions 
+3. Go in to your email to get the hash email address and activate the form code
+4. Put the hash code in your form where the action address should be.
+5. Save the document and push it on Git
+6. Refresh git and Refresh your page
+7. Test your form
