@@ -35,7 +35,7 @@
                         </select>
                     </div>
                     <div class="col-4 col-12-small">
-                        <input type="radio" id="priority-low" name="priority" checked>
+                        <input type="radio" id="priority-low" name="priority">
                         <label for="priority-low">Low</label>
                         <!--took the "demo-" out of ids properties"-->
                     </div>
@@ -48,11 +48,12 @@
                         <label for="priority-high">High</label>
                     </div>
                     <div class="col-6 col-12-small">
-                        <input type="checkbox" id="copy" name="copy">
+                        <input type="checkbox" id="copy" name="copy" checked>
                         <label for="demo-copy">Email me a copy</label>
                     </div>
                     <div class="col-6 col-12-small">
                         <input type="checkbox" id="human" name="human" required>
+                        <script>alert('Not a bot? Check the box!')</script>
                         <label for="human">Not a robot</label>
                     </div>
                     <div class="col-12">
