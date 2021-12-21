@@ -3572,4 +3572,6 @@ input, select, textarea {
 	opacity: 0.8;
   }*/
 
-  
+  #menu {
+	  padding-left: 1em;
+  }
